@@ -10,7 +10,6 @@ on:
 
 jobs:
   build-and-scan:
-    if: github.event_name == 'push'
     runs-on: ubuntu-latest
 
     steps:
